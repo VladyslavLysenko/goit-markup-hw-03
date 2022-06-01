@@ -1,0 +1,117 @@
+/* Стили общие */
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --text-wh-color:#FFFFFF;
+    --text-bl-color:#2196F3;
+    --accent-color: #2196F3;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --primary-bg-color: #2196F3;
+    --primary-bg-white-color: #FFFFFF;
+    --primary-bg-grey-color: #2F303A;;
+    --primary-bg-btn-color: #F5F4FA;
+    
+}
+
+
+body {
+font-family: 'Roboto', 'Oleo Script', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    background: var(--primary-bg-white-color);
+    color: var(--primary-text-color);
+   
+}
+/* Подчеркивание гиперссилок убрал */
+a{text-decoration: none;}
+
+
+.list {
+    list-style: none;
+}
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+/* WebStudio */
+.logo{
+
+    font-family: 'Raleway','Oleo Script','sans';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo .logo-part-one {
+    color: var(--accent-color);
+}
+.logo .logo-part-two {
+    color: #000000;
+}
+.logo .logo-part-three {
+    color:var(--text-wh-color);
+    
+}
+
+/* Навигация */
+.site-nav-item{
+    font-weight:500;
+    color: var(--title-text-color);
+}
+.site-nav-item:hover,
+.site-nav-item:focus {
+    color: var(--accent-color);
+}
+.site-nav-item.current {
+    color: var(--primary-bg-color);
+}
+.contacts .contact {
+    font-weight: 500;
+    color: var(--primary-text-color);
+}
+.contacts, 
+.contact:hover,
+.contacts,
+.contact:focus {
+    color: var(--text-bl-color);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-bg-grey-color);
+}
+.adress-footer{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--primary-bg-white-color);
+}
+
+.contact-footer{
+font-style: normal;
+color: rgba(255, 255, 255, 0.6);
+}
+.contact-footer:hover,
+.contact-footer:focus{
+    color: var(--text-bl-color);
+}
+
+

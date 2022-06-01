@@ -1,0 +1,43 @@
+/* стили для portfolio.html */
+
+
+/* Buttons */
+
+
+.btn-filtres{
+    /* шрифт кнопки */
+    font-family:inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+   
+    /* фон кнопки */
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.btn-filtres:hover,
+.btn-filtres:focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--text-wh-color);
+    background: var(--primary-bg-color);
+    cursor: pointer;
+}
+
+.project-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2; 
+    letter-spacing: 0.06em;
+    color: var(--title-text-color)
+}
+
+.project-description{
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+}
+
