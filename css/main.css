@@ -1,30 +1,46 @@
 /* Стили для Index.html */
 
+
+
 /* Hero */
+
 .hero{
     background: #2F303A;
+    padding: 200px 452px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 105px;
+    width: 1600px;
+    outline: 1px solid teal;
+  
 }
 /*   Эффективные решения для вашего бизнеса */
 .hero-title{
+    display:block;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-align: center;
     color: var(--primary-bg-white-color);
+    max-width: 696px;
+    margin-bottom: 30px ;
+   
 }
 /* Кнопка заказать услугу */
 
 .btn-hero:hover{
     background: #188CE8;
+    
 }
 .btn-hero{
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
+    display: inline-block;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -33,11 +49,17 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 200px;
 }
 
 
 
 /* Наши преимущества */
+.features{
+    margin-bottom: 94px;
+}
 
 .feature-title{
     
@@ -47,7 +69,9 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--title-text-color);
+        margin-bottom: 10px;
 }
+
 
 
 
@@ -58,17 +82,37 @@
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
-        
         letter-spacing: 0.03em;
-        color: var(--title-text-color)
+        color: var(--title-text-color);
+        margin-bottom: 50px;
+        text-align: center;
+
+
+}
+
+
+.examples.list{
+    margin-bottom: 94px;
+    text-align: center;
+    /* width: 370px; 
+    height: 294px; */
 }
 /* Команда */
+.team{
+    padding: 94px 215px;
+}
 .teams.list .title{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.teams.list{
+    text-align: center;
+    margin-bottom: 94px;
 }
 
 .teams .team-icon{

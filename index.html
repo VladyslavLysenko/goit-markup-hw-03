@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Студия</title>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -16,15 +14,20 @@
     <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oleo+Script:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+  
 <!--Шапка сайта-->
-    <header>
-       
+    <header class="page-header">
+    <div class="container">
     <a href="/" class="logo">
         <span class="logo-part-one" lang="en">Web</span><span class="logo-part-two" lang="en">Studio</span>
         </a>
-        <!--Навигация-->
+    <!--Навигация-->
+        
         <nav>
         <ul class="site-nav list">
             <li><a href="" class="site-nav-item current">Студия</a></li>
@@ -33,26 +36,31 @@
             
         </ul>
         </nav>
+    
 
         <ul class="contacts list">
             <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
            <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
         </ul>
+            </div>
 
     </header>
-    <main>
+    <div class="container"></div>
+        <main>
     <!--Heroy-->
-    <div class="hero-bg" >
+    
         <section class="hero">
+        <div class="hero-content">
             <h1 class="hero-title">
                 Эффективные решения для вашего бизнеса
             </h1>
             <button type="button" class="btn-hero"  >Заказать услугу</button>
-
+        </div>  
         </section>
-    </div>
+    
 <!--Наши преимущества-->
     <section class="features">
+        <div class="container">
         <!--Заголовок под скрытие-->
         <h2 class="visually-hidden">Наши преимущества</h2>
         <ul class="feature-list list">
@@ -73,10 +81,11 @@
             </li>
         </ul>
 
-
+        </div>
     </section>
 <!--Чем мы занимаемся?-->
    <section class="section">
+       <div class="container">
        <h2 class="section-title">
         Чем мы занимаемся
        </h2>
@@ -91,10 +100,12 @@
                 <img src="./images/box3.jpg" alt="example-3" width="370">
             </li>
        </ul>
+        </div>
    </section>
 <!--Наша команда-->
 
-   <section class="section">
+   <section class="team">
+       <div class="container">
     <h2 class="section-title">
         Наша команда
     </h2>
@@ -108,12 +119,16 @@
             <li><img src="./images/img3.jpg" alt="" width="270"><h3 class="title">Михаил Ермаков</h3><p lang="en" class="team-icon">UI Designer</p>
             </li>
         </ul> 
-    
+    </div>
 </section>
-        </main>
+  
+    </main>
+        </div>
+
 
 <!--Footer-->
 <footer class="footer">
+    <div class="container">
     <a href="/" class="logo"><span class="logo-part-one" lang="en">Web</span><span class="logo-part-three" lang="en">Studio</span> </a>
 <address>
     <ul class="contacts list">
@@ -124,7 +139,8 @@
     </address>
 
 
-
+</div>
 </footer>
+
 </body>
 </html>

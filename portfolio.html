@@ -6,21 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <!-- Oleo Script -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oleo+Script:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 
 <body>
     <!--Шапка сайта-->
-    <header>
+    <header class="page-header">
+        <div class="container">
 
         <a href="/" class="logo">
             <span class="logo-part-one" lang="en">Web</span><span class="logo-part-two" lang="en">Studio</span>
@@ -39,12 +41,13 @@
             <li><a href="mailto:info@devstudio.com" class="contact">info@devstudio.com</a></li>
             <li><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a></li>
         </ul>
-
+        </div>
     </header>
     <main>
+      
        <!-- Buttons -->
-        <section>
-            <!-- Как скрыть заголовок? -->
+        <section class="filtres">
+        <div class="container">
             <h1 class="visually-hidden">Filtres</h1>
             <ul class="buttons list">
                 <li><button type="button" class="btn-filtres">Все</button></li>
@@ -53,11 +56,12 @@
                 <li><button type="button" class="btn-filtres">Дизайн</button></li>
                 <li><button type="button" class="btn-filtres">Маркетинг</button></li>
             </ul>
-           
+        </div>
         </section>
 
         <!-- Projects -->
-        <section>
+        <section class="projects-main">
+            <div class="container">
    <ul class="projects list">
         <li class="project-item"><a href=""><img width="370" src="./images-porfolio/pr1.jpg" alt="laptop"></a><h2 class="project-title">Технокряк</h2><p class="project-description">Веб-сайт</p></li>
         <li class="project-item"><a href=""><img width="370" src="./images-porfolio/pr2.jpg" alt="Постер New Orlean"></a><h2 class="project-title">Постер New Orlean vs Golden Star</h2><p class="project-description">Дизайн</p></li>
@@ -69,6 +73,7 @@
         <li class="project-item"><a href=""><img width="370" src="./images-porfolio/pr8.jpg" alt="Проект LAB"></a><h2 class="project-title">Проект LAB</h2><p class="project-description">Маркетинг</p>
         <li class="project-item"><a href=""><img width="370" src="./images-porfolio/pr9.jpg" alt="Growing Business"></a><h2 class="project-title" lang="en">Growing Business</h2><p class="project-description">Приложение</p></li>
     </ul>
+    </div>
          </section>
 
 
@@ -76,6 +81,7 @@
 
 <!--Footer-->
 <footer class="footer">
+    <div class="container">
     <a href="/" class="logo"><span class="logo-part-one" lang="en">Web</span><span class="logo-part-three" lang="en">Studio</span> </a>
     <address>
         <ul class="contacts list">
@@ -84,7 +90,7 @@
             <li><a href="tel:+380991111111" class="contact-footer">+38 099 111 11 11</a></li>
         </ul>
     </address>
-
+    </div>
 </footer>
 </body>
 </html>

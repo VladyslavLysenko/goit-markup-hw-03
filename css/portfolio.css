@@ -2,15 +2,23 @@
 
 
 /* Buttons */
+.fitres{
+    padding-top: 94px;
+    padding-bottom: 50px;
+    padding-left: 495px;
+    padding-right: 945px;
+}
 
 
 .btn-filtres{
     /* шрифт кнопки */
+    display:inline-block;
     font-family:inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    margin-bottom: 8px;
    
     /* фон кнопки */
     background: #F5F4FA;
@@ -26,13 +34,25 @@
     background: var(--primary-bg-color);
     cursor: pointer;
 }
+/*  Projects */
+.projects-main{
+    padding-top: 34px;
+    padding-bottom: 30px;
+}
+
+.projects.list{
+    margin-bottom: 30px;
+}
+
 
 .project-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2; 
     letter-spacing: 0.06em;
-    color: var(--title-text-color)
+    color: var(--title-text-color);
+    margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .project-description{
