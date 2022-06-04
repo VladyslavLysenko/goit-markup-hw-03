@@ -49,7 +49,6 @@ font-family: 'Roboto', 'Oleo Script', 'sans-serif';
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-   
 }
 /* Подчеркивание гиперссилок убрал */
 a{text-decoration: none;}
@@ -133,6 +132,7 @@ margin-right: 50px;
 .site-nav-link.current {
     color: var(--primary-bg-color);
 }
+
 .contact-link {
     font-weight: 500;
     color: var(--primary-text-color);
@@ -172,13 +172,12 @@ margin-right: 50px;
     margin-bottom: 10px;
 }
 
-.contacts{
+.contacts.list{
     display: flex;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 215px;
-    
+    margin-left: 300px;
 }
+
+.contact-link{}
 
 .contact:not(:last-child){
     margin-right: 50px;
