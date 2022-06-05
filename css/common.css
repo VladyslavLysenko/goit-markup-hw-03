@@ -96,10 +96,8 @@ a{text-decoration: none;}
 }
 
 /* Навигация */
-.page-header{
-    padding-top: 32px;
-    padding-bottom: 32px;
-}
+
+ 
 .page-header .container{
     display: flex;
     align-items: center;
@@ -141,7 +139,7 @@ margin-right: 50px;
 }
 /* Cекции  */
 .section {
-    padding: 94px 215px;
+    padding: 94px 0;
 }
 
 /* footer */

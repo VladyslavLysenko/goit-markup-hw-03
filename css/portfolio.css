@@ -7,6 +7,7 @@
 display: flex;
 justify-content: center;
 align-content: center;
+margin-bottom: 34px;
 
 }
 
@@ -14,7 +15,8 @@ align-content: center;
 border: 0;
 }
 
-.fitres{
+/* Портфолио!!! */
+.portfolio{
     padding-top: 94px;
     padding-bottom: 50px;
     padding-left: 495px;
@@ -22,7 +24,7 @@ border: 0;
 }
 
 
-.btn-filtres{
+.btn-portfolio{
     /* шрифт кнопки */
     display:inline-block;
     font-family:inherit;
@@ -30,8 +32,8 @@ border: 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    margin-bottom: 8px;
     min-width: 73px;
+    border: 0;
    
     /* фон кнопки */
     background: #F5F4FA;
@@ -44,8 +46,8 @@ border: 0;
 }
 
 
-.btn-filtres:hover,
-.btn-filtres:focus{
+.btn-portfolio:hover,
+.btn-portfolio:focus{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -59,12 +61,13 @@ border: 0;
     flex-wrap: wrap;
     justify-content: center;
     margin-right: -30px;
+    
 }
 
 .project-item{
-    flex-basis:((100%-270px)/9);
+   
+    flex-basis: calc((100%-270px)/9);
     margin-right: 30px;
-    
 }
 
 .project-item .img-content{
