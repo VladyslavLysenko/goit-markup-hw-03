@@ -15,14 +15,6 @@ margin-bottom: 34px;
 border: 0;
 }
 
-/* Портфолио!!! */
-.portfolio{
-    padding-top: 94px;
-    padding-bottom: 50px;
-    padding-left: 495px;
-    padding-right: 945px;
-}
-
 
 .btn-portfolio{
     /* шрифт кнопки */
@@ -34,6 +26,7 @@ border: 0;
     line-height: 1.62;
     min-width: 73px;
     border: 0;
+    padding: 6px 22px;
    
     /* фон кнопки */
     background: #F5F4FA;
@@ -56,23 +49,21 @@ border: 0;
     cursor: pointer;
 }
 /*  Projects */
-.projects{
+.projects.list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-right: -30px;
+     gap: 30px; 
     
 }
 
-.project-item{
-   
-    flex-basis: calc((100%-270px)/9);
-    margin-right: 30px;
-}
+.project-item {
+    flex-basis: calc((100% - 90px) / 3);
+    }
 
-.project-item .img-content{
+.img-content{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    min-width: 370px;
 }
 
 .project-item:not(:last-child){

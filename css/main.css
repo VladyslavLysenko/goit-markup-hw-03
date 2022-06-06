@@ -108,8 +108,6 @@
 
 .example-item{
 flex-basis: calc((100%-90px)/3);
-margin-right: 30px;
-
 }
 .example-item:not(:last-child){
     margin-right: 30px;

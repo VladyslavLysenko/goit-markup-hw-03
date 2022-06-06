@@ -115,7 +115,10 @@ a{text-decoration: none;}
     font-weight:500;
     color: var(--title-text-color);
     padding-top: 32px;
+    padding-bottom: 32px;
     padding-top: 32px;
+    display: block;
+    line-height: 1.1
 }
 
 .site-nav-item:not(:last-child) {
