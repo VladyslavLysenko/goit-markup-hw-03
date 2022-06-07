@@ -7,7 +7,7 @@
 display: flex;
 justify-content: center;
 align-content: center;
-margin-bottom: 34px;
+margin-bottom: 50px;
 
 }
 
@@ -20,7 +20,6 @@ border: 0;
     /* шрифт кнопки */
     display:inline-block;
     font-family:inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -63,12 +62,11 @@ border: 0;
 .img-content{
     padding: 20px 24px;
     border: 1px solid #EEEEEE;
+    border-top: 0;
     min-width: 370px;
 }
 
-.project-item:not(:last-child){
-    margin-bottom: 30px;
-}
+
 
 .projects-main{
     padding-top: 34px;
